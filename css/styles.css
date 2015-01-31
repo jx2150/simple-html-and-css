@@ -1,0 +1,51 @@
+html {
+	font: 12px/14px sans-serif;
+	color: #333333;
+}
+
+
+
+
+body {
+	background: #111111;
+	color: #fff;
+	margin: 1em;
+	padding: 0;
+}
+
+header {
+	background: red;
+	padding: 1em;
+}
+
+header h1 {
+	margin: 0 0 1em;
+	/*padding: 1em;*/
+}
+
+ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 50%;
+}
+
+li {
+	list-style: none;
+	margin: 1em;
+	padding: 1em;
+	background: #333;
+	border-radius: .5em;
+}
+
+li img {
+	display: block;
+	width: 100%;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: beige;
+}
