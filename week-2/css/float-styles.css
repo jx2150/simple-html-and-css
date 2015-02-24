@@ -45,6 +45,23 @@ li {
 	border-radius: 4px;
 }
 
+.side {
+	width: 44%;
+
+	float: left;
+}
+
+.side.b {
+	width: 44%;
+	float: right;
+
+
+}
+
+.clearfix {
+	clear: left;
+}
+
 img {
 	width: 100%;
 	height: 100%;
@@ -54,3 +71,36 @@ img {
 .whatever {
 	border: 1px solid red;
 }
+
+@media screen and (min-width=450px){
+
+	.side {
+		float: left;
+		width: 48%;
+		margin: 5px 1% 5px 1%;
+		box-sizing: border-box;
+	}
+	.clearfix {
+		clear: left;
+	}
+
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	background-color: maroon;
+}
+
+footer {
+	background-color: maroon;
+	color: white;
+	font-size: 16px;
+	padding: 5px 10px;
+}
+
+
+
+
+
+
