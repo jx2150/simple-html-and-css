@@ -22,3 +22,5 @@ Resources:
 - http://css-tricks.com/box-sizing/
 - http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/
 - http://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/
+- http://validator.w3.org/nu/
+- https://jigsaw.w3.org/css-validator/
