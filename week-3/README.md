@@ -17,6 +17,7 @@ HINT:
 - re-use week-2's float layout for .side elements
 - mobile-first approach
 - position: absolute and transform: translate for centering .hero-text
+- images: max-width: 100%
 
 Resources:
 - http://css-tricks.com/box-sizing/
