@@ -5,12 +5,13 @@ html {
 	background-color: black;
 }
 header {
-	background-color: red;
+	background-color: #ff4040;
 	color: white;
-	padding-top: .5px;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 5px;
+	padding: .5px 10px 10px 5px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 a {
@@ -28,7 +29,7 @@ a:visited {
 
 ul {
 	width: 50%;
-	margin: 8px auto 0 auto;
+	margin: 120px auto 0 auto;
 	padding-top: 5px;
 	list-style-type: none;
 }
@@ -43,23 +44,7 @@ li {
 	padding-left: 8px;
 	padding-right: 8px;
 	border-radius: 4px;
-}
-
-.side {
-	width: 44%;
-
-	float: left;
-}
-
-.side.b {
-	width: 44%;
-	float: right;
-
-
-}
-
-.clearfix {
-	clear: left;
+	clear: both;
 }
 
 img {
@@ -72,35 +57,27 @@ img {
 	border: 1px solid red;
 }
 
-@media screen and (min-width=450px){
-
-	.side {
-		float: left;
-		width: 48%;
-		margin: 5px 1% 5px 1%;
-		box-sizing: border-box;
-	}
-	.clearfix {
-		clear: left;
-	}
-
-}
-
-header {
-	position: fixed;
-	width: 100%;
-	background-color: maroon;
+.side {
+	
 }
 
 footer {
-	background-color: maroon;
 	color: white;
-	font-size: 16px;
-	padding: 5px 10px;
+	background: #468499;
+	padding: .5px 10px 10px 5px;
+	border-radius: 5px;
 }
 
-
-
-
-
-
+@media screen and (min-width: 400px) {
+	.side {
+		float: left;
+		width: 48%;
+		clear: none;
+		box-sizing: border-box;
+		margin: 1%;
+		padding: 1em;
+	}
+	.side.b {
+		float: right;
+	}
+}
