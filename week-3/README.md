@@ -11,6 +11,7 @@ The stuff you'll stumble on and learn this week includes:
 - full screen hero image styling
 - centering text (vertically and horizontally)
 - *blockquote* element and styling with oversized quote
+- z-index
 
 HINT:
 - box-sizing: border-box;
