@@ -49,3 +49,4 @@ HINTS:
   1. **Structure**: the HTML markup describing the component (text `<input>`, `<button>`, etc.)
   2. **Style**: the CSS (compiled from SASS/scss in this case) (layout, colors, font size, etc.)
   3. **Behavior**: the javascript (jquery in this case) allowing for interactive behavior (click handler, AJAX request, etc)
+- Twitter's API doc for user timeline: https://dev.twitter.com/rest/reference/get/statuses/user_timeline
